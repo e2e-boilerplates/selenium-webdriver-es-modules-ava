@@ -10,7 +10,12 @@ process.env.CHROME_BIN = require("puppeteer").executablePath();
 let browser;
 
 chromeCapabilities.set("goog:chromeOptions", {
-  args: ["--headless", "--no-sandbox", "window-size=1024,768"]
+  args: [
+    "--headless",
+    "--no-sandbox",
+    "window-size=1024,768",
+    "--disable-dev-shm-usage"
+  ]
 });
 
 test.before(async () => {
