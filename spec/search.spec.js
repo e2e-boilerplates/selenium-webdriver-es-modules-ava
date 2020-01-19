@@ -5,6 +5,7 @@ import isCI from "is-ci";
 const chromeCapabilities = Capabilities.chrome();
 
 require("chromedriver");
+process.env.CHROME_BIN = require("puppeteer").executablePath();
 
 let browser;
 
