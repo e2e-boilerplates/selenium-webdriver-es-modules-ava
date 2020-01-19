@@ -5,15 +5,14 @@ import isCI from "is-ci";
 const chromeCapabilities = Capabilities.chrome();
 
 require("chromedriver");
-process.env.CHROME_BIN = require("puppeteer").executablePath();
 
 let browser;
 
 chromeCapabilities.set("goog:chromeOptions", {
   args: [
-    "--headless",
+    "--disable-gpu",
     "--no-sandbox",
-    "window-size=1024,768",
+    "--disable-extensions",
     "--disable-dev-shm-usage"
   ]
 });
