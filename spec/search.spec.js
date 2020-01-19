@@ -1,27 +1,24 @@
 import test from "ava";
-import { Builder, By, Capabilities, Key, until } from "selenium-webdriver";
+import { Builder, By, Key, until } from "selenium-webdriver";
 import isCI from "is-ci";
 
-const chromeCapabilities = Capabilities.chrome();
-
 require("chromedriver");
+const chrome = require("selenium-webdriver/chrome");
+
+const chromeOptions = new chrome.Options();
+chromeOptions.addArguments("--disable-gpu");
+chromeOptions.addArguments("--headless");
+chromeOptions.addArguments("--no-sandbox");
+chromeOptions.addArguments("--disable-extensions");
+chromeOptions.addArguments("--disable-dev-shm-usage");
 
 let browser;
-
-chromeCapabilities.set("goog:chromeOptions", {
-  args: [
-    "--disable-gpu",
-    "--no-sandbox",
-    "--disable-extensions",
-    "--disable-dev-shm-usage"
-  ]
-});
 
 test.before(async () => {
   browser = isCI
     ? await new Builder()
         .forBrowser("chrome")
-        .withCapabilities(chromeCapabilities)
+        .setChromeOptions(chromeOptions)
         .build()
     : await new Builder().forBrowser("chrome").build();
   browser.get("https://www.google.com");
