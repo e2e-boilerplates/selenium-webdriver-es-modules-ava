@@ -9,7 +9,7 @@ require("chromedriver");
 let browser;
 
 chromeCapabilities.set("goog:chromeOptions", {
-  args: ["--headless", "--no-sandbox", "--disable-gpu"]
+  args: ["--headless", "--no-sandbox", "window-size=1024,768", "--disable-gpu"]
 });
 
 test.before(async () => {
