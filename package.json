@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "selenium-webdriver end-to-end test automation boilerplate project. Using commonjs and ava.",
   "scripts": {
-    "test": "npx ava",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "npx ava"
   },
   "keywords": [
     "selenium-webdriver",
@@ -24,6 +24,7 @@
     "eslint-plugin-import": "2.20.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "3.1.0",
+    "is-ci": "^2.0.0",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
     "selenium-webdriver": "4.0.0-alpha.5"
