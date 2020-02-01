@@ -1,7 +1,7 @@
 {
-  "name": "selenium-webdriver-es6modules-ava",
+  "name": "selenium-webdriver-es6-modules-ava",
   "version": "1.0.0",
-  "description": "selenium-webdriver end-to-end test automation boilerplate project. Using commonjs and ava.",
+  "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6-modules and AVA.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx ava"

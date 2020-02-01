@@ -27,7 +27,5 @@ test("Should be on Sandbox", async t => {
   const header = await browser.findElement(By.css("h1"));
 
   t.is(title, "Sandbox");
-  header.getText().then(text => {
-    t.is(text, "Sandbox");
-  });
+  t.is(await header.getText(), "Sandbox");
 });
