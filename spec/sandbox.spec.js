@@ -1,6 +1,6 @@
 import test from "ava";
 import { Builder, By } from "selenium-webdriver";
-import * as chrome from "selenium-webdriver/chrome";
+import chrome from "selenium-webdriver/chrome";
 
 let browser;
 
