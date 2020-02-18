@@ -1,8 +1,8 @@
 import test from "ava";
 import { Builder, By } from "selenium-webdriver";
+import * as chrome from "selenium-webdriver/chrome";
 
 let browser;
-const chrome = require("selenium-webdriver/chrome");
 
 require("chromedriver");
 
