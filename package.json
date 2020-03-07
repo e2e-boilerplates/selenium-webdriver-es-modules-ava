@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "description": "selenium-webdriver end-to-end test automation boilerplate, using ES6 modules and AVA.",
   "devDependencies": {
     "ava": "2.4.0",
@@ -22,12 +22,8 @@
   },
   "keywords": [
     "ava",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
+    "es Modules",
     "es6",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver",
     "webdriver"
