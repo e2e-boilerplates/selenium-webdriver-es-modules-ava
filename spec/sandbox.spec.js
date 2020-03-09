@@ -15,7 +15,7 @@ test.before(async () => {
     .forBrowser("chrome")
     .setChromeOptions(chromeOptions)
     .build();
-  browser.get("https://e2e-boilerplates.github.io/sandbox/");
+  browser.get("https://e2e-boilerplate.github.io/sandbox/");
 });
 
 test.after(async () => {
