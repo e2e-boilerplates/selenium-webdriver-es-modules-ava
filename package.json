@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/issues"
   },
@@ -26,6 +26,11 @@
   },
   "keywords": [
     "ava",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "selenium",
     "selenium-webdriver"
   ],
