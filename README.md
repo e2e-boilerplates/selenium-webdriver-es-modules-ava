@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-es-modules-ava](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/workflows/selenium-webdriver-es-modules-ava/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/actions?workflow=selenium-webdriver-es-modules-ava)
+[![GitHub Actions status | e2e-boilerplate/selenium-webdriver-es-modules-ava](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/workflows/selenium-webdriver-es-modules-ava/badge.svg)](https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/actions?workflow=selenium-webdriver-es-modules-ava) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Selenium-WebDriver Boilerplate
 
