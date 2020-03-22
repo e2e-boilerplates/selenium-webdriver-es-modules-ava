@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/selenium-webdriver-es-modules-ava/issues"
   },
+  "dependencies": {},
   "description": "Selenium-WebDriver end-to-end test automation boilerplate. using ES Modules and AVA.",
   "devDependencies": {
     "ava": "2.4.0",
@@ -25,11 +26,6 @@
   },
   "keywords": [
     "ava",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "selenium",
     "selenium-webdriver"
   ],
@@ -43,6 +39,5 @@
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx ava"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
