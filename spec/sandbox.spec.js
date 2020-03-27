@@ -22,7 +22,7 @@ test.after(async () => {
   browser.quit();
 });
 
-test("Should be on Sandbox", async t => {
+test("Should be on Sandbox", async (t) => {
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1"));
 
