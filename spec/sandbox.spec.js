@@ -23,6 +23,7 @@ test.after(async () => {
 });
 
 test("Should be on Sandbox", async (t) => {
+  await timeout(arbitraryDuration(), 50000)
   const title = await browser.getTitle();
   const header = await browser.findElement(By.css("h1"));
 
