@@ -2,7 +2,7 @@
     
 # Selenium-WebDriver Boilerplate
     
-Selenium-WebDriver end-to-end test automation boilerplate, Using ES Modules, Babel and AVA.
+Selenium-WebDriver end-to-end test automation boilerplate, Using [ES Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), [Babel](https://babeljs.io) and [AVA](https://github.com/avajs/ava).
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/selenium-webdriver-es-modules-babel-ava.git
